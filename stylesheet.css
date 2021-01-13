@@ -6,6 +6,7 @@
   }
 
   body{
+      padding: 50px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,111,1) 35%, rgba(115,192,207,1) 100%);
 text-align: left;
@@ -20,7 +21,7 @@ text-align: left;
     height: 100vh;
     font-family: monospace;
     color: seashell;
-    padding: 50px;
+
 
   }
 
@@ -143,3 +144,34 @@ text-align:justify;
 font-family: monospace;
 
  }
+
+ #contact{
+    padding-left: 200px;
+ }
+ 
+.fillers{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 25%;
+    height: 20px;
+    padding-left: 200px;
+    text-align: left;
+
+
+
+}
+
+
+/*submit button */
+
+#submit {
+    width: 20%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border-radius: 15%; 
+}
+

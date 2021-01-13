@@ -1,0 +1,122 @@
+@media (max-width: 40em) {
+    #navbar {
+      float: none;
+      width: auto;
+    }
+  }
+
+  body{
+      background-color:lightgray ;
+      font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  #welcome-section{
+    width: 100%;
+    height: 100vh;
+    font-family: monospace;
+    color: seashell;
+    background-image: linear-gradient(DarkSlateGrey,LightGray);
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding: 50px;
+
+  }
+  img{
+      position: relative;
+      width: 400px;
+      float: right;
+      margin-left:20px;
+      border-radius: 50%;
+      padding: 100px;
+  }
+
+  }
+  h1{
+      font-size: 40px;
+  }
+#h2{
+    font-size: 30px;
+    padding-bottom: 200px;
+}
+
+#about{
+    font-size: 30px;
+
+}
+.text{
+    font-size: 18;
+    color: darkslategrey;
+
+        width:50%;
+        text-align:justify;
+        }
+.text:after {
+        content:'';
+        display:inline-block;
+        widows: 50%;
+        vertical-align:top;
+        }
+
+
+  
+.navbar{
+    color:seashell;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+  
+  
+    #navbar {
+      
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color:teal;
+      opacity: 0.75;
+      padding: 1em;
+    }
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    color: darkslategrey;
+    font-family: monospace;
+    padding-top: 150px;
+}
+#projects{
+    width: 100%;
+    height: 70vh; 
+    background-image: linear-gradient(lightgray,darkslategray);
+}
+
+
+
+
+
+/*links */
+.project-tile {
+    font-size: 20px;
+    padding: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seashell;
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+    
+    text-decoration: none;
+  }
+  
+  .project-tile:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }

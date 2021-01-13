@@ -8,7 +8,7 @@
   body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,111,1) 35%, rgba(115,192,207,1) 100%);
-
+text-align: left;
     
       font-family:Verdana, Geneva, Tahoma, sans-serif;
 
@@ -74,14 +74,7 @@
       opacity: 0.75;
       padding: 1em;
     }
-h3{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 50px;
-    color: seashell;
-    font-family: monospace;
-    padding-top: 150px;
-}
+
 #projects{
     width: 100%;
 line-height: 50mm;
@@ -126,3 +119,27 @@ border-radius: 50%;
     background-repeat: repeat-x;
     text-decoration: none;
   }
+
+
+
+  /*contact part*/
+  
+
+#contact{
+
+        width: 100%;
+        height: 100vh;
+        font-family: monospace;
+        color: seashell;
+        padding: 50px;
+}
+
+#h3{
+
+        font-size: 30px;
+        color: seashell;
+        font-weight: bold;
+    
+            width:50%;
+            text-align:justify;
+            }

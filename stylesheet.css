@@ -8,6 +8,7 @@
   body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,111,1) 35%, rgba(115,192,207,1) 100%);
+
     
       font-family:Verdana, Geneva, Tahoma, sans-serif;
 
@@ -38,7 +39,7 @@
 
 }
 .text{
-    font-size: 18;
+    font-size: 20;
     color: seashell;
 
         width:50%;

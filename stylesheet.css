@@ -92,16 +92,13 @@ line-height: 50mm;
 }
 
 
-.project-image {
-    object-fit: cover;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
-  }
-  
-  .project-image {
-    width: 80%;
-    border-radius: 6px;
-  }
+.project-photo {
+    float: right;
+width: 200px;
+margin-right: 400px;
+border-radius: 50%;
 
+}   
 
 
 

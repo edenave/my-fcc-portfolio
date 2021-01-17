@@ -1,9 +1,4 @@
-@media (max-width: 40em) {
-    #navbar {
-      float: none;
-      width: auto;
-    }
-  }
+
 
   body{
       padding: 50px;
